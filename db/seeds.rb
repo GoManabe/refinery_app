@@ -8,3 +8,6 @@
 
 # Added by Refinery CMS Pages extension
 Refinery::Pages::Engine.load_seed
+
+# デフォルトの日本語化
+I18n.locale = ::Refinery::I18n.default_locale
