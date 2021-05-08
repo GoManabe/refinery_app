@@ -6,8 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# Added by Refinery CMS Pages extension
-Refinery::Pages::Engine.load_seed
-
 # デフォルトの日本語化
 I18n.locale = ::Refinery::I18n.default_locale
+
+# Added by Refinery CMS Pages extension
+Refinery::Pages::Engine.load_seed
