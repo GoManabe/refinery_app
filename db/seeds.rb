@@ -11,3 +11,6 @@ I18n.locale = ::Refinery::I18n.default_locale
 
 # Added by Refinery CMS Pages extension
 Refinery::Pages::Engine.load_seed
+
+# Added by Refinery CMS Events extension
+Refinery::Events::Engine.load_seed
